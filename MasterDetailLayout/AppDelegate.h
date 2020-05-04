@@ -11,5 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 
+@property (strong, nonatomic) NSArray *missionsArray;
+
+
 @end
 

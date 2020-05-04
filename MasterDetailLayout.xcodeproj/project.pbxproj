@@ -8,30 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		3B8E773C245C845800AD6552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E773B245C845800AD6552 /* AppDelegate.m */; };
-		3B8E773F245C845800AD6552 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E773E245C845800AD6552 /* SceneDelegate.m */; };
 		3B8E7742245C845800AD6552 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7741245C845800AD6552 /* MasterViewController.m */; };
-		3B8E7745245C845800AD6552 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7744245C845800AD6552 /* DetailViewController.m */; };
 		3B8E7748245C845800AD6552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E7746245C845800AD6552 /* Main.storyboard */; };
 		3B8E774A245C845A00AD6552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E7749245C845A00AD6552 /* Assets.xcassets */; };
 		3B8E774D245C845A00AD6552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E774B245C845A00AD6552 /* LaunchScreen.storyboard */; };
 		3B8E7750245C845A00AD6552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E774F245C845A00AD6552 /* main.m */; };
+		3B8E7758245C854600AD6552 /* GCMission.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7757245C854600AD6552 /* GCMission.m */; };
+		3B8E7769245C8D6F00AD6552 /* GCMissionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7768245C8D6F00AD6552 /* GCMissionTableViewCell.m */; };
+		3B8E776D245CE64000AD6552 /* MissionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E776C245CE64000AD6552 /* MissionDetailViewController.swift */; };
+		3B8E776F245CE6C700AD6552 /* MissionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E776E245CE6C700AD6552 /* MissionDetail.swift */; };
+		3B8E7771245CF10100AD6552 /* MissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7770245CF10100AD6552 /* MissionDetailView.swift */; };
+		3B8E7773245CF11700AD6552 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7772245CF11700AD6552 /* MissionViewModel.swift */; };
+		3B8E7775245D092500AD6552 /* MissionDetailInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7774245D092500AD6552 /* MissionDetailInterface.swift */; };
+		3BCC4BDA24604D8800F69E1F /* GCMission+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC4BD924604D8800F69E1F /* GCMission+UIKit.m */; };
+		3BCC4BDF24605BF900F69E1F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC4BDE24605BF900F69E1F /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B8E7737245C845800AD6552 /* MasterDetailLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDetailLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E773A245C845800AD6552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B8E773B245C845800AD6552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B8E773D245C845800AD6552 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3B8E773E245C845800AD6552 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3B8E7740245C845800AD6552 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		3B8E7741245C845800AD6552 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3B8E7743245C845800AD6552 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3B8E7744245C845800AD6552 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3B8E7747245C845800AD6552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B8E7749245C845A00AD6552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8E774C245C845A00AD6552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8E774E245C845A00AD6552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8E774F245C845A00AD6552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8E7756245C854600AD6552 /* GCMission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCMission.h; sourceTree = "<group>"; };
+		3B8E7757245C854600AD6552 /* GCMission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCMission.m; sourceTree = "<group>"; };
+		3B8E7767245C8D6F00AD6552 /* GCMissionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCMissionTableViewCell.h; sourceTree = "<group>"; };
+		3B8E7768245C8D6F00AD6552 /* GCMissionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCMissionTableViewCell.m; sourceTree = "<group>"; };
+		3B8E776B245CE64000AD6552 /* MasterDetailLayout-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterDetailLayout-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B8E776C245CE64000AD6552 /* MissionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailViewController.swift; sourceTree = "<group>"; };
+		3B8E776E245CE6C700AD6552 /* MissionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetail.swift; sourceTree = "<group>"; };
+		3B8E7770245CF10100AD6552 /* MissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailView.swift; sourceTree = "<group>"; };
+		3B8E7772245CF11700AD6552 /* MissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewModel.swift; sourceTree = "<group>"; };
+		3B8E7774245D092500AD6552 /* MissionDetailInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailInterface.swift; sourceTree = "<group>"; };
+		3BCC4BD824604D8800F69E1F /* GCMission+UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCMission+UIKit.h"; sourceTree = "<group>"; };
+		3BCC4BD924604D8800F69E1F /* GCMission+UIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GCMission+UIKit.m"; sourceTree = "<group>"; };
+		3BCC4BDD24605BF900F69E1F /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneDelegate.h; path = MasterDetailLayout/SceneDelegate.h; sourceTree = "<group>"; };
+		3BCC4BDE24605BF900F69E1F /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneDelegate.m; path = MasterDetailLayout/SceneDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +65,8 @@
 		3B8E772E245C845800AD6552 = {
 			isa = PBXGroup;
 			children = (
+				3BCC4BDD24605BF900F69E1F /* SceneDelegate.h */,
+				3BCC4BDE24605BF900F69E1F /* SceneDelegate.m */,
 				3B8E7739245C845800AD6552 /* MasterDetailLayout */,
 				3B8E7738245C845800AD6552 /* Products */,
 			);
@@ -64,14 +83,15 @@
 		3B8E7739245C845800AD6552 /* MasterDetailLayout */ = {
 			isa = PBXGroup;
 			children = (
+				3B8E776B245CE64000AD6552 /* MasterDetailLayout-Bridging-Header.h */,
+				3BCC4BDC2460590B00F69E1F /* Categories */,
+				3BCC4BDB2460590000F69E1F /* MIssion Model */,
+				3B8E776A245CE59900AD6552 /* Swift Mission Detail */,
+				3B8E7766245C8D4800AD6552 /* Mission Cell */,
 				3B8E773A245C845800AD6552 /* AppDelegate.h */,
 				3B8E773B245C845800AD6552 /* AppDelegate.m */,
-				3B8E773D245C845800AD6552 /* SceneDelegate.h */,
-				3B8E773E245C845800AD6552 /* SceneDelegate.m */,
 				3B8E7740245C845800AD6552 /* MasterViewController.h */,
 				3B8E7741245C845800AD6552 /* MasterViewController.m */,
-				3B8E7743245C845800AD6552 /* DetailViewController.h */,
-				3B8E7744245C845800AD6552 /* DetailViewController.m */,
 				3B8E7746245C845800AD6552 /* Main.storyboard */,
 				3B8E7749245C845A00AD6552 /* Assets.xcassets */,
 				3B8E774B245C845A00AD6552 /* LaunchScreen.storyboard */,
@@ -79,6 +99,45 @@
 				3B8E774F245C845A00AD6552 /* main.m */,
 			);
 			path = MasterDetailLayout;
+			sourceTree = "<group>";
+		};
+		3B8E7766245C8D4800AD6552 /* Mission Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E7767245C8D6F00AD6552 /* GCMissionTableViewCell.h */,
+				3B8E7768245C8D6F00AD6552 /* GCMissionTableViewCell.m */,
+			);
+			path = "Mission Cell";
+			sourceTree = "<group>";
+		};
+		3B8E776A245CE59900AD6552 /* Swift Mission Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E776C245CE64000AD6552 /* MissionDetailViewController.swift */,
+				3B8E776E245CE6C700AD6552 /* MissionDetail.swift */,
+				3B8E7770245CF10100AD6552 /* MissionDetailView.swift */,
+				3B8E7772245CF11700AD6552 /* MissionViewModel.swift */,
+				3B8E7774245D092500AD6552 /* MissionDetailInterface.swift */,
+			);
+			path = "Swift Mission Detail";
+			sourceTree = "<group>";
+		};
+		3BCC4BDB2460590000F69E1F /* MIssion Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E7756245C854600AD6552 /* GCMission.h */,
+				3B8E7757245C854600AD6552 /* GCMission.m */,
+			);
+			path = "MIssion Model";
+			sourceTree = "<group>";
+		};
+		3BCC4BDC2460590B00F69E1F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3BCC4BD824604D8800F69E1F /* GCMission+UIKit.h */,
+				3BCC4BD924604D8800F69E1F /* GCMission+UIKit.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +171,7 @@
 				TargetAttributes = {
 					3B8E7736245C845800AD6552 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -151,11 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8E776D245CE64000AD6552 /* MissionDetailViewController.swift in Sources */,
+				3BCC4BDA24604D8800F69E1F /* GCMission+UIKit.m in Sources */,
+				3B8E7775245D092500AD6552 /* MissionDetailInterface.swift in Sources */,
+				3B8E7758245C854600AD6552 /* GCMission.m in Sources */,
 				3B8E7750245C845A00AD6552 /* main.m in Sources */,
 				3B8E773C245C845800AD6552 /* AppDelegate.m in Sources */,
+				3B8E7773245CF11700AD6552 /* MissionViewModel.swift in Sources */,
+				3BCC4BDF24605BF900F69E1F /* SceneDelegate.m in Sources */,
+				3B8E7771245CF10100AD6552 /* MissionDetailView.swift in Sources */,
 				3B8E7742245C845800AD6552 /* MasterViewController.m in Sources */,
-				3B8E773F245C845800AD6552 /* SceneDelegate.m in Sources */,
-				3B8E7745245C845800AD6552 /* DetailViewController.m in Sources */,
+				3B8E7769245C8D6F00AD6552 /* GCMissionTableViewCell.m in Sources */,
+				3B8E776F245CE6C700AD6552 /* MissionDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46YHDJD445;
 				INFOPLIST_FILE = MasterDetailLayout/Info.plist;
@@ -304,6 +372,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ejeffers.MasterDetailLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MasterDetailLayout/MasterDetailLayout-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46YHDJD445;
 				INFOPLIST_FILE = MasterDetailLayout/Info.plist;
@@ -321,6 +393,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ejeffers.MasterDetailLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MasterDetailLayout/MasterDetailLayout-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
