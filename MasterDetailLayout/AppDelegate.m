@@ -26,66 +26,66 @@
     NSDictionary *mockMissionsDict = @{
         @"mission1" :
                 @{
-                    @"name" : @"ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
+                    @"name" : @"Clock Tower Challenege",
+                    @"description" : @"Take a photograph of the clock tower on worth Avenue. Be Sure to include something that makes this sentence longer for the purposes of testing and showing lots of detail in the text. Bring some, friends, have a clock tower party",
                     @"points" : @"2",
                     @"type" : @"photo",
                 },
         @"mission2" :
                 @{
-                    @"name" : @"2 2 2 ERIC CHALLENGE NAME",
-                    @"description" : @"descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptionn descriptiondescriptiondescription \n descriptiondescriptiondescriptiondescription\n   description description description test tes this is more of me writing a desc that is a test",
-                    @"points" : @"2",
+                    @"name" : @"Ten Thousand",
+                    @"description" : @"This challenege has a plausibly high point value. That is it's only purpose.",
+                    @"points" : @"10000",
                     @"type" : @"text",
                 },
         @"mission3" :
                 @{
-                    @"name" : @"ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
+                    @"name" : @"Newlinze Bonaza",
+                    @"description" : @"This challenge has \n lots \n of \n new lines \n in order to see how \n the detail view \n looks \n when the text is really really really really really really long. ",
                     @"points" : @"2",
                     @"type" : @"gps",
                 },
         @"mission4" :
                 @{
-                    @"name" : @"ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
-                    @"points" : @"2",
-                    @"type" : @"photo",
+                    @"name" : @"",
+                    @"description" : @"This title intentionally Left Blank",
+                    @"points" : @"gsjreghlkushg",
+                    @"type" : @"gkrdjsl;ghkjrd",
                 },
         @"mission5" :
                 @{
-                    @"name" : @"ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
+                    @"name" : @"Bike Ride",
+                    @"description" : @"🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️🚴🏻‍♀️",
                     @"points" : @"2",
                     @"type" : @"text",
                 },
         @"mission6" :
                 @{
-                    @"name" : @"6 ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
+                    @"name" : @"Generate Somewhat Interesting Mock Data",
+                    @"description" : @"This is a text task, naturally. But it really is kind of exhausting to think of a lot of meaningless words to write. Actually I'm just gonna wirte about bikes since I have a captive audtience",
                     @"points" : @"2",
                     @"type" : @"text",
                 },
         @"mission7" :
                 @{
-                    @"name" : @"7 ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
-                    @"points" : @"2",
+                    @"name" : @"Bleed and Flush Gravel Bike Braks",
+                    @"description" : @"So the coronvirus thing has actually overloaded bike shops, which is great cause hey more people doing stuff outside.",
+                    @"points" : @"11",
                     @"type" : @"gps",
                 },
         @"mission8" :
                 @{
-                    @"name" : @"8 ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
-                    @"points" : @"2",
+                    @"name" : @"Brake Bleed pt. ❷",
+                    @"description" : @"But that means I have to wait like 10 days to get a bike serviced. So I order a brake bleed kit so I can flush my own brakes on the gravel bike. It's apprently a horrible tedious process and very tme consuming (hence the wait) but with the tools and youtube I should be able to do it",
+                    @"points" : @"19",
                     @"type" : @"text",
                 },
         @"mission9" :
                 @{
-                    @"name" : @"9 ERIC CHALLENGE NAME",
-                    @"description" : @"test Description test test test test HELLOE MY THIS IS A LONG STRING OF TEXT TEX TEXT TKEJLVKSEJFLKESLFKES FESILFSEKFJEKLSJ",
-                    @"points" : @"2",
-                    @"type" : @"gps",
+                    @"name" : @"Watch SRAM brake flush videos",
+                    @"description" : @"You know when the video starts off with and ad for something called a \"Third Hand\" that this isn't going to be a fun process",
+                    @"points" : @"31",
+                    @"type" : @"photo",
                 },
     };
     

@@ -58,11 +58,11 @@ NSString *const MissionJSONType = @"type";
 {
     switch (self.missionType) {
         case GCMissionTypeText:
-            return @"#0000FF";
+            return @"#87C6E8";
         case GCMissionTypePhoto:
-            return @"#FF4500";
+            return @"#DBB396";
         case GCMissionTypeGPS:
-            return @"#6A0DAD";
+            return @"#A6A5C1";
         default:
             return @"#000000";
     }
