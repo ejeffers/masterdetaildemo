@@ -43,8 +43,6 @@
         [self.typeImageView.bottomAnchor constraintLessThanOrEqualToAnchor:guide.bottomAnchor].active = YES;
         [self.typeImageView.heightAnchor constraintEqualToAnchor:guide.widthAnchor multiplier:0.25].active = YES;
         
-        
-        
         [textGuide.leadingAnchor constraintEqualToAnchor:self.typeImageView.trailingAnchor].active = YES;
         [textGuide.topAnchor constraintEqualToAnchor:guide.topAnchor].active = YES;
         [textGuide.trailingAnchor constraintEqualToAnchor:guide.trailingAnchor].active = YES;
@@ -53,19 +51,16 @@
         self.nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
         self.nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
         [self.nameLabel.leadingAnchor constraintEqualToAnchor:textGuide.leadingAnchor].active = YES;
-        [self.nameLabel.topAnchor constraintEqualToAnchor:guide.topAnchor].active = YES;
-        [self.nameLabel.trailingAnchor constraintEqualToAnchor:self.pointsLabel.leadingAnchor constant:-15].active = YES;
-        [self.nameLabel.widthAnchor constraintLessThanOrEqualToAnchor:guide.widthAnchor multiplier:0.9].active = YES;
+        [self.nameLabel.topAnchor constraintEqualToAnchor:textGuide.topAnchor].active = YES;
+        [self.nameLabel.trailingAnchor constraintEqualToAnchor:self.pointsLabel.leadingAnchor].active = YES;
         self.nameLabel.numberOfLines = 1;
         
-        
         self.pointsLabel.translatesAutoresizingMaskIntoConstraints = NO;
-        [self.pointsLabel.trailingAnchor constraintEqualToAnchor:guide.trailingAnchor].active = YES;
-        [self.pointsLabel.topAnchor constraintEqualToAnchor:guide.topAnchor].active = YES;
-        
+        [self.pointsLabel.trailingAnchor constraintEqualToAnchor:textGuide.trailingAnchor].active = YES;
+        self.pointsLabel.textAlignment = NSTextAlignmentRight;
+        [self.pointsLabel.topAnchor constraintEqualToAnchor:textGuide.topAnchor].active = YES;
         
         self.descLabel.translatesAutoresizingMaskIntoConstraints = NO;
-        //self.descLabel.lineBreakMode = NSLineBreakByTruncatingTail;
         [self.descLabel.leadingAnchor constraintEqualToAnchor:textGuide.leadingAnchor].active = YES;
         [self.descLabel.topAnchor constraintEqualToAnchor:self.nameLabel.bottomAnchor].active = YES;
         [self.descLabel.trailingAnchor constraintEqualToAnchor:textGuide.trailingAnchor].active = YES;
@@ -81,10 +76,6 @@
 {
     [super layoutSubviews];
     [self.textLabel removeFromSuperview];
-     
-
-    // TODO: configure our labels to look pretty
-    
 }
 
 
@@ -108,9 +99,6 @@
     
     self.typeImageView.image = [GCMission imageFromHexString:mission.missionDisplayHexColorString];
 }
-
-
-
 
 
 @end
