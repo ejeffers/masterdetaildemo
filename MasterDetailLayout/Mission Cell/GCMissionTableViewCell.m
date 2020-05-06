@@ -19,6 +19,9 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         
+        self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        //self.accessoryView.subviews[0].tintColor = [UIColor yellowColor];
+        
         self.nameLabel = [UILabel new];
         self.descLabel = [UILabel new];
         self.pointsLabel = [UILabel new];

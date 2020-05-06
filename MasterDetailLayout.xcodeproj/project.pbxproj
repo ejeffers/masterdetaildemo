@@ -15,7 +15,6 @@
 		3B8E7750245C845A00AD6552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E774F245C845A00AD6552 /* main.m */; };
 		3B8E7758245C854600AD6552 /* GCMission.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7757245C854600AD6552 /* GCMission.m */; };
 		3B8E7769245C8D6F00AD6552 /* GCMissionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7768245C8D6F00AD6552 /* GCMissionTableViewCell.m */; };
-		3B8E776D245CE64000AD6552 /* MissionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E776C245CE64000AD6552 /* MissionDetailViewController.swift */; };
 		3B8E776F245CE6C700AD6552 /* MissionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E776E245CE6C700AD6552 /* MissionDetail.swift */; };
 		3B8E7771245CF10100AD6552 /* MissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7770245CF10100AD6552 /* MissionDetailView.swift */; };
 		3B8E7773245CF11700AD6552 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E7772245CF11700AD6552 /* MissionViewModel.swift */; };
@@ -40,7 +39,6 @@
 		3B8E7767245C8D6F00AD6552 /* GCMissionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCMissionTableViewCell.h; sourceTree = "<group>"; };
 		3B8E7768245C8D6F00AD6552 /* GCMissionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCMissionTableViewCell.m; sourceTree = "<group>"; };
 		3B8E776B245CE64000AD6552 /* MasterDetailLayout-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterDetailLayout-Bridging-Header.h"; sourceTree = "<group>"; };
-		3B8E776C245CE64000AD6552 /* MissionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailViewController.swift; sourceTree = "<group>"; };
 		3B8E776E245CE6C700AD6552 /* MissionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetail.swift; sourceTree = "<group>"; };
 		3B8E7770245CF10100AD6552 /* MissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailView.swift; sourceTree = "<group>"; };
 		3B8E7772245CF11700AD6552 /* MissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewModel.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 		3B8E776A245CE59900AD6552 /* Swift Mission Detail */ = {
 			isa = PBXGroup;
 			children = (
-				3B8E776C245CE64000AD6552 /* MissionDetailViewController.swift */,
 				3B8E776E245CE6C700AD6552 /* MissionDetail.swift */,
 				3B8E7770245CF10100AD6552 /* MissionDetailView.swift */,
 				3B8E7772245CF11700AD6552 /* MissionViewModel.swift */,
@@ -211,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8E776D245CE64000AD6552 /* MissionDetailViewController.swift in Sources */,
 				3BCC4BDA24604D8800F69E1F /* GCMission+UIKit.m in Sources */,
 				3B8E7775245D092500AD6552 /* MissionDetailInterface.swift in Sources */,
 				3B8E7758245C854600AD6552 /* GCMission.m in Sources */,

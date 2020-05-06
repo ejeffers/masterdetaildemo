@@ -14,49 +14,59 @@ struct MissionDetail: View {
         
     let mission : MissionViewModel
     
-    
     var body: some View {
         
-        VStack (alignment: .leading) {
-            HStack {
-                mission.image
-                Spacer()
-                VStack(alignment: .center) {
-                    
-                    HStack(alignment: .center) {
-                        Text(mission.name).frame(minWidth: 0,
-                                                 minHeight: 0,
-                                                 alignment:.leading)
-                        Spacer()
-                        Text(mission.points).frame(minWidth: 0,
-                                                   minHeight: 0,
-                                                   alignment: .trailing)
-                    }.frame(minWidth: 0,
-                            maxWidth: .infinity,
-                            minHeight: 0,
-                            maxHeight: .none,
-                            alignment: .center)
-                    
-                    Text(mission.description)
-                    Spacer().frame(width: 0, height: 0, alignment: .top)
-                }
+        let spacing = CGFloat(10)
+        let standardInsets = EdgeInsets(top: spacing/2, leading: spacing, bottom: spacing/2, trailing: spacing)
+        
+        let titlePointsHStack = HStack(alignment: .center) {
+            Text(mission.name).frame(minWidth: 0,
+                                     minHeight: 0,
+                                     alignment:.leading)
+            Spacer()
+            Text(mission.points).frame(minWidth: 0,
+                                       minHeight: 0,
+                                       alignment: .trailing)
             }
-            Button(action: {
-                print("Evidence Snapped!")
-                }) {
-                    Text("Snap Evidence").padding()
-                        .frame(minWidth: 0,
-                               maxWidth: .infinity,
-                               minHeight: 0,
-                               maxHeight: .none,
-                               alignment: .center)
-                        .background(Color.yellow)
-                        .cornerRadius(30)
+        
+        let detailHStack = HStack(alignment: .center, spacing: spacing)  {
+            mission.image
+            Spacer()
+            VStack(alignment: .leading) {
+                titlePointsHStack.frame(minWidth: 0,
+                                        maxWidth: .infinity,
+                                        minHeight: 0,
+                                        maxHeight: .none,
+                                        alignment: .center)
+                Spacer().frame(width: 0, height: spacing, alignment: .top)
+                Text(mission.description)
+                Spacer().frame(width: 0, height: 0, alignment: .top)
             }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
+        }
+            
+        let snapButton = Button(action: {
+            print("Evidence Snapped!")
+            }) {
+                Text("Snap Evidence")
+                    .padding()
+                    .frame(minWidth: 0,
+                           maxWidth: .infinity,
+                           minHeight: 0,
+                           maxHeight: .none,
+                           alignment: .center)
+                    .background(Color.purple)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(30)
+        }
+        
+       return VStack (alignment: .leading, spacing: spacing) {
+                detailHStack.padding(standardInsets)
+                snapButton
+                    .padding(standardInsets)
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
             }
     }
+        
 }
 
 
@@ -65,7 +75,7 @@ struct MissionDetail_Previews: PreviewProvider {
         
         MissionDetail(mission: MissionViewModel(missionId: "mission22",
                                                 name: "Cat Party",
-                                                description: "test descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptionn descriptiondescriptiondescription \n descriptiondescriptiondescriptiondescription\n   description description description test tes this is more of me writing a desc that is a test",
+                                                description: "This is an actual sentenece as detail as sample text so that the canvas will show usable Detail in the canvas. \nNewline \nMore Detail Text",
                                                 points: "3 pts",
                                                 image: Image(uiImage: GCMission.image(fromHexString: "#0000FF"))))
     }
